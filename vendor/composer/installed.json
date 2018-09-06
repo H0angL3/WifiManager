@@ -1,0 +1,51 @@
+[
+    {
+        "name": "art-of-wifi/unifi-api-client",
+        "version": "v1.1.32",
+        "version_normalized": "1.1.32.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Art-of-WiFi/UniFi-API-client.git",
+            "reference": "2c035878ed944afcb9e1a7fd2e1d4473d12cef85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Art-of-WiFi/UniFi-API-client/zipball/2c035878ed944afcb9e1a7fd2e1d4473d12cef85",
+            "reference": "2c035878ed944afcb9e1a7fd2e1d4473d12cef85",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2018-08-28T12:44:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "UniFi_API\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Art of WiFi",
+                "email": "info@artofowifi.net",
+                "homepage": "http://artofwifi.net"
+            }
+        ],
+        "description": "API client class for use with Ubiquiti's UniFi controller",
+        "homepage": "https://github.com/Art-of-WiFi/UniFi-API-client",
+        "keywords": [
+            "UBNT",
+            "api",
+            "client",
+            "controller",
+            "ubiquiti",
+            "unifi"
+        ]
+    }
+]
